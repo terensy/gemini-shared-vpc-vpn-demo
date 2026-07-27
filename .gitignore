@@ -4,6 +4,10 @@ __pycache__/
 .venv/
 venv/
 
+# 本機參考腳本,不對外公開
+/gemini-test.py
+/requirements.txt
+
 # Terraform
 **/.terraform/
 **/.build/

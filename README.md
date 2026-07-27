@@ -144,7 +144,6 @@ curl -X POST http://127.0.0.1:18080/ \
 
 ```
 .
-├── gemini-test.py          # Vertex AI Gemini 呼叫方式的參考腳本(負載測試用)
 ├── api-server/              # Cloud Run: 接收內部請求、呼叫 Vertex AI Gemini
 ├── client-function/         # Cloud Run Function: 模擬地端應用的呼叫入口
 └── terraform/                # 整套環境的 IaC(folder/project/網路/VPN/LB/Cloud Run/IAM)
