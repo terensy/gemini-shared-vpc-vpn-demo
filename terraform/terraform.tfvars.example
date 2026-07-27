@@ -1,0 +1,6 @@
+# 複製這份成 terraform.tfvars,填入你自己的值。
+# terraform.tfvars 已經被 .gitignore 排除,不會被提交。
+
+billing_account            = "XXXXXX-XXXXXX-XXXXXX"
+vpn_tunnel_1_shared_secret = "請填一組你自己產生的高強度密鑰"
+vpn_tunnel_2_shared_secret = "請填另一組你自己產生的高強度密鑰(可與上面不同)"
