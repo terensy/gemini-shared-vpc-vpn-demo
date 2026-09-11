@@ -1,5 +1,7 @@
 # Vertex AI Gemini × Shared VPC × HA VPN 混合雲示範架構
 
+**繁體中文** | [English](README.en.md)
+
 一個完整、可實際運作的 GCP 示範環境:模擬「地端(on-prem)應用透過 VPN 私網呼叫雲端 AI 服務」的真實企業場景 —— 從網路層(Shared VPC、HA VPN + BGP、Internal Application Load Balancer)到應用層(Cloud Run + Vertex AI Gemini),再到維運層(Terraform IaC、成本歸屬 labeling),完整串起來並且**全部用 Terraform 管理**。
 
 這不是教學用的玩具架構,是真的部署起來、跑得動、資源都用 `terraform import` 帶進 state 的一套系統。
